@@ -1,0 +1,13 @@
+export SETUP_PATH="$HOME/.setup"
+
+export PATH="$HOME/bin:$PATH"
+
+if [[ -n $SSH_CONNECTION ]]; then
+    export EDITOR='vim'
+else
+    export EDITOR="subl"
+fi
+
+export ARCHFLAGS="-arch x86_64"
+
+export SSH_KEY_PATH="~/.ssh/id_rsa"
