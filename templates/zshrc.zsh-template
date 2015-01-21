@@ -52,13 +52,13 @@ plugins=(git history-substring-search screen)
 
 # User configuration
 
-ZSH_HOST_COLOR="$fg[red]"
-ZSH_USER_COLOR="$fg[blue]"
-
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
+
+export ZSH_HOST_COLOR="$fg[red]"
+export ZSH_USER_COLOR="$fg[blue]"
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
