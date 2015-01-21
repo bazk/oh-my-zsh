@@ -1,3 +1,6 @@
+# Path to setup scripts
+export SETUP_PATH="$HOME/.setup"
+
 # Path to your oh-my-zsh installation.
 export ZSH=$SETUP_PATH/oh-my-zsh
 
